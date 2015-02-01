@@ -1,0 +1,95 @@
+body {
+	font-family: Gotham, Futura, Helvettica, sans-serif;
+	background-color: #FFF8DC;
+}
+
+header {
+	width:85%;
+	background-color:black;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	padding:10px;
+	overflow:hidden;
+}
+h1{
+	font-size:3em;
+	margin:0;
+	padding:0;
+	padding-top:10px;
+}
+
+h2{
+	font-size:2;
+}
+h3{
+	font-size:1.3;
+}
+
+hgroup {
+	width:70%;
+	float:left;
+}
+hgroup h1{
+	padding-top:0;
+	line-height:3em;
+	font-family:Venus Rising;
+}
+
+hgroup h2{
+	text-transform:uppercase;
+	font-size:2.5em;
+	line-height:1em;
+	font-family: Fortune City;
+}
+nav{
+	width:30%;
+	float:right;
+}
+nav ul {
+	list-style-type: none;
+}
+
+nav li{
+	float:left;
+	margin-right:20px;
+}
+section{
+	width:85%;
+	background-color:white;
+	margin-right:auto;
+	margin-left:auto;
+	border-color:black;
+	border-style:solid;
+	border-width:5px;
+	padding:5px;
+	box-shadow: 3px 3px 5px 1px #cccccc;
+}
+p{
+	margin-right:50px;
+}
+
+img{
+	float:right;
+	box-shadow: 1px 1px 2px 1px #CEECF5;
+	
+}
+aside{
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:.8em;
+	background:#eeff99;
+	padding:20px;
+	border:1px solid #F2F;
+	border-radius: 20px;
+}
+footer{
+	width:85%;
+	background-color:black;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	height:50px;
+	padding:10px;
+}
