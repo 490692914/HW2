@@ -17,22 +17,29 @@ h1{
 	margin:0;
 	padding:0;
 	padding-top:10px;
+	width: 30%;
 }
 
 h2{
-	font-size:2;
+	font-size:2.5em;
 }
 h3{
 	font-size:1.3;
 }
 
+header {
+	width:85%;
+	overflow:hidden;
+}
+
 hgroup {
-	width:70%;
+	width:60%;
 	float:left;
 }
+
 hgroup h1{
 	padding-top:0;
-	line-height:3em;
+	line-height:1em;
 	font-family:Venus Rising;
 }
 
@@ -43,11 +50,13 @@ hgroup h2{
 	font-family: Fortune City;
 }
 nav{
-	width:30%;
+	width:20%;
 	float:right;
 }
 nav ul {
 	list-style-type: none;
+	padding: 0;
+	font-size: 1.5em;
 }
 
 nav li{
@@ -71,19 +80,30 @@ p{
 
 img{
 	float:right;
-	box-shadow: 1px 1px 2px 1px #CEECF5;
-	
+	margin: 0px 45px 10px 10px;
 }
 aside{
-	width:80%;
+	width:60%;
 	margin-right:auto;
 	margin-left:auto;
-	font-size:.8em;
-	background:#eeff99;
-	padding:20px;
-	border:1px solid #F2F;
+	padding:30px;
+	border:1px solid;
 	border-radius: 20px;
 }
+
+#social_media {
+	float:left;
+}
+	
+}
+#social_media ul{
+	list-style-type: none;
+}
+#social_media li {
+	display:inline;
+
+}
+
 footer{
 	width:85%;
 	background-color:black;
