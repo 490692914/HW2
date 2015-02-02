@@ -1,0 +1,8 @@
+
+nav, footer, header, img {
+	display: none;
+}
+
+body {
+	font: 12pt "times New Roman", TimesNR, Times, serif;
+}
