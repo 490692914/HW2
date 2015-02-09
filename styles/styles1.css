@@ -13,6 +13,15 @@ header {
 	overflow:hidden;
 }
 
+footer{
+	width:85%;
+	background-color:black;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	height:50px;
+	padding:10px;
+}
 
 h1{
 	font-size:3em;
@@ -49,7 +58,7 @@ nav li{
 	float:left;
 	margin-right:20px;
 }
-#content1{
+.content{
 	width:85%;
 	background-color:white;
 	margin-right:auto;
@@ -59,39 +68,20 @@ nav li{
 	border-width:5px;
 	padding:5px;
 	box-shadow: 3px 3px 5px 1px #cccccc;
+	text-align:left;
 }
 
-#content2{
-	width:85%;
-	background-color:white;
-	margin-right:auto;
-	margin-left:auto;
-	border-color:black;
-	border-style:solid;
-	border-width:5px;
-	padding:5px;
-	box-shadow: 3px 3px 5px 1px #cccccc;
-}
-
-#content3{
-	width:85%;
-	background-color:white;
-	margin-right:auto;
-	margin-left:auto;
-	border-color:black;
-	border-style:solid;
-	border-width:5px;
-	padding:5px;
-	box-shadow: 3px 3px 5px 1px #cccccc;
-}
 
 p{
 	margin-right:50px;
 }
 
-#bigimage{
-	margin: 0px 45px 10px 10px;
-	
+#middle{
+	margin-left:113px;
+	margin-right:300px;
+	width:100%;
+	margin-top:5px;
+	overflow:hidden;
 }
 
 #social_media {
@@ -107,13 +97,7 @@ p{
 	margin-right: 8px;
 	padding-bottom: 3px;
 }
-
-footer{
-	width:85%;
-	background-color:black;
-	color:white;
-	margin-right:auto;
-	margin-left:auto;
-	height:50px;
-	padding:10px;
+#right_top {
+float: right;
+overflow:hidden;
 }
